@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text-Overflow</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 3px solid tomato;
+            overflow: auto;
+            overflow-x: hidden;
+        }
+        .ellipsis{
+            width: 200px;
+            border: 4px solid tomato;
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+        }
+
+        #box-1 {}
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <h2 class="ellipsis">I am a Serious student and i am investing fore to six hour in my learning with jhankar vai</h2>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My text Box 1</h3>
+            <p>lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et optio eius enim, repellendus quidem
+                odio id in ad vitae voluptatem laboriosam aut ipsa error cumque labore fugiat rem natus.
+                Voluptatem!loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt a eaque magni
+                provident, dolorem est quod ad corrupti suscipit. Quia veritatis labore fugiat veniam, dolorum officia
+                totam soluta sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sunt magnam doloribus eum
+                dolorum similique veniam illum facilis porro itaque tenetur rem quasi, earum adipisci reprehenderit hic
+                consequatur! Vel, saepe? ipsum dolor sit amet, consectetur adipisicing
+                elit. Aliquid itaque impedit magni, similique dolore magnam labore incidunt odio consequuntur! Culpa.
+            </p>
+        </div>
+        <div class="box">
+            <h3>My text Box 2</h3>
+            <p>Vel Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quia id veritatis officiis. Nostrum
+                hic odio qui quae ad sint illum quibusdam, officiis mollitia placeat voluptatum non, saepe quaerat
+                commodi.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam magni debitis iure iste enim adipisci
+                facilis ex quisquam obcaecati aut porro unde distinctio, quas veniam repellat suscipit dolor earum sit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam provident libero repudiandae?
+                Possimus quas repudiandae eius repellat distinctio similique ipsam ratione corrupti dolores, nam rem
+                sed. Quisquam, alias quae?harum recusandae expedita rerum, numquam temporibus nobis corporis ipsa sit
+                quae voluptas quam error!
+                Laudantium voluptatem et exercitationem aspernatur?</p>
+        </div>
+        <div class="box">
+            <h3>My text Box 3</h3>
+            <p>Accusamus, incidunt temporibus. Nulla magnam quisquam fugiat eius, nihil dolor corrupti ipsa placeat
+                impedit deserunt, sequi enim ducimus facilis quis?</p>
+        </div>
+    </section>
 </body>
+
 </html>
