@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container .inner {
+            width: 200px;
+            height: 200px;
+        }
+
+        .container {
+            border: 2px solid steelblue;
+            background-color: aquamarine;
+        }
+
+        .inner {
+            border: 3px solid blue;
+            background-color: palegreen;
+            transform: rotate(45deg);
+            translate: 50px;
+
+        }
+
+        .inner:hover {
+            transform: translateY(30px) rotate(45deg);
+        }
+
+        .container:hover {
+            transform: translateY(30px) rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">container 1
+        <div class="inner">Inner 1</div>
+    </div>
+    <div class="container">container 2
+        <div class="inner">Inner 2</div>
+    </div>
+    <div class="container">container 3
+        <div class="inner">Inner 3</div>
+    </div>
+</body>
+
+</html>
