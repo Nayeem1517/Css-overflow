@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid tomato;
+            background-color: peachpuff;
+            /* property name | duration | easing function | delay */
+            transition: width 10s linear 2s;
+        }
+
+        .box:hover {
+            width: 400px;
+            background-color: midnightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Transform:Change the shape.Its help to set the css style properties</li>
+        <li>Translation: to mmovie the div or nsection.Its help to set the positon of my css style properties.</li>
+        <li>Transition:how long it will take to chanhge the color and shape of my css style properties</li>
+        <div class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+    </ul>
+</body>
+
+</html>
